@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCategoryFixedTitleActivity"
+    android:background="#415EAA">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_planet" />
+
+    <TextView
+        android:id="@+id/fragment_1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="48dp"
+        android:text="Which category?"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/fragment_1_title"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:alpha=".87"
+            android:paddingLeft="48dp"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/fixedOption1"
+            android:onClick="fixedOption1"
+            android:stateListAnimator="@null"
+            android:text="Birthday"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:alpha=".87"
+            android:paddingLeft="48dp"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/fixedOption2"
+            android:onClick="fixedOption2"
+            android:stateListAnimator="@null"
+            android:text="School"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:alpha=".87"
+            android:paddingLeft="48dp"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/fixedOption3"
+            android:onClick="fixedOption3"
+            android:stateListAnimator="@null"
+            android:text="Work"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:alpha=".87"
+            android:paddingLeft="48dp"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/fixedOption4"
+            android:onClick="fixedOption4"
+            android:stateListAnimator="@null"
+            android:text="Friends"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:alpha=".87"
+            android:paddingLeft="48dp"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/customOption"
+            android:onClick="customOption"
+            android:stateListAnimator="@null"
+            android:text="Custom..."
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="sans" />
+    </LinearLayout>
+</RelativeLayout>

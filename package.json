@@ -1,0 +1,22 @@
+{
+  "name": "morrangu",
+  "version": "1.0.0",
+  "description": "A friendly chat bot!",
+  "main": " ",
+  "scripts": {
+    "test": "haha no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshkyunghyunlee/Morrangu.git"
+  },
+  "author": "Josh Lee",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/Joshkyunghyunlee/Morrangu/issues"
+  },
+  "homepage": "https://github.com/Joshkyunghyunlee/Morrangu#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
